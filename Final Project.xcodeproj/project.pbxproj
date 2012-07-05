@@ -20,6 +20,12 @@
 		3F0ACC9515A240280021B3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0ACC7615A240280021B3C7 /* Foundation.framework */; };
 		3F0ACC9D15A240280021B3C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0ACC9B15A240280021B3C7 /* InfoPlist.strings */; };
 		3F0ACCA015A240280021B3C7 /* Final_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ACC9F15A240280021B3C7 /* Final_ProjectTests.m */; };
+		3F0ACCAE15A2453A0021B3C7 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0ACCAD15A2453A0021B3C7 /* bubble.png */; };
+		3F3B848615A4BF55007F4EEE /* yarab.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B848515A4BF55007F4EEE /* yarab.png */; };
+		3F3B848C15A4C41A007F4EEE /* mS7c5C0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B848B15A4C41A007F4EEE /* mS7c5C0.jpeg */; };
+		3F3B848E15A4C6A4007F4EEE /* stock-photo-an-abstract-seamless-pattern-of-black-and-white-geometric-shapes-that-are-connected-to-one-another-49315708.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B848D15A4C6A4007F4EEE /* stock-photo-an-abstract-seamless-pattern-of-black-and-white-geometric-shapes-that-are-connected-to-one-another-49315708.jpeg */; };
+		3F6E1F1A15A51726002A0A44 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6E1F1915A51726002A0A44 /* AVFoundation.framework */; };
+		3FD79CBC15A5109800E37C01 /* Rusko - Woo Boost-NiceNoiz.pl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD79CBB15A5109800E37C01 /* Rusko - Woo Boost-NiceNoiz.pl.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +43,27 @@
 		3F0ACC7415A240280021B3C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F0ACC7615A240280021B3C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F0ACC7815A240280021B3C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F0ACC7C15A240280021B3C7 /* Final Project-Info.plist */ = {isa = PBXFileReference; path = "Final Project-Info.plist"; sourceTree = "<group>"; };
+		3F0ACC7C15A240280021B3C7 /* Final Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final Project-Info.plist"; sourceTree = "<group>"; };
 		3F0ACC7E15A240280021B3C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F0ACC8015A240280021B3C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F0ACC8215A240280021B3C7 /* Final Project-Prefix.pch */ = {isa = PBXFileReference; path = "Final Project-Prefix.pch"; sourceTree = "<group>"; };
-		3F0ACC8315A240280021B3C7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0ACC8215A240280021B3C7 /* Final Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Final Project-Prefix.pch"; sourceTree = "<group>"; };
+		3F0ACC8315A240280021B3C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F0ACC8415A240280021B3C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F0ACC8715A240280021B3C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3F0ACC8915A240280021B3C7 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3F0ACC8915A240280021B3C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F0ACC8A15A240280021B3C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F0ACC9115A240280021B3C7 /* Final ProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0ACC9215A240280021B3C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3F0ACC9A15A240280021B3C7 /* Final ProjectTests-Info.plist */ = {isa = PBXFileReference; path = "Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
+		3F0ACC9A15A240280021B3C7 /* Final ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3F0ACC9C15A240280021B3C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F0ACC9E15A240280021B3C7 /* Final_ProjectTests.h */ = {isa = PBXFileReference; path = Final_ProjectTests.h; sourceTree = "<group>"; };
+		3F0ACC9E15A240280021B3C7 /* Final_ProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Final_ProjectTests.h; sourceTree = "<group>"; };
 		3F0ACC9F15A240280021B3C7 /* Final_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Final_ProjectTests.m; sourceTree = "<group>"; };
+		3F0ACCAD15A2453A0021B3C7 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		3F3B848515A4BF55007F4EEE /* yarab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarab.png; sourceTree = "<group>"; };
+		3F3B848B15A4C41A007F4EEE /* mS7c5C0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mS7c5C0.jpeg; sourceTree = "<group>"; };
+		3F3B848D15A4C6A4007F4EEE /* stock-photo-an-abstract-seamless-pattern-of-black-and-white-geometric-shapes-that-are-connected-to-one-another-49315708.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stock-photo-an-abstract-seamless-pattern-of-black-and-white-geometric-shapes-that-are-connected-to-one-another-49315708.jpeg"; sourceTree = "<group>"; };
+		3F6E1F1915A51726002A0A44 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FD79CBB15A5109800E37C01 /* Rusko - Woo Boost-NiceNoiz.pl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Rusko - Woo Boost-NiceNoiz.pl.mp3"; path = "../Rusko - Woo Boost-NiceNoiz.pl.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6E1F1A15A51726002A0A44 /* AVFoundation.framework in Frameworks */,
 				3F0ACC7515A240280021B3C7 /* UIKit.framework in Frameworks */,
 				3F0ACC7715A240280021B3C7 /* Foundation.framework in Frameworks */,
 				3F0ACC7915A240280021B3C7 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +94,10 @@
 		3F0ACC6515A240280021B3C7 = {
 			isa = PBXGroup;
 			children = (
+				3F6E1F1915A51726002A0A44 /* AVFoundation.framework */,
+				3F3B848D15A4C6A4007F4EEE /* stock-photo-an-abstract-seamless-pattern-of-black-and-white-geometric-shapes-that-are-connected-to-one-another-49315708.jpeg */,
+				3F3B848B15A4C41A007F4EEE /* mS7c5C0.jpeg */,
+				3F3B848515A4BF55007F4EEE /* yarab.png */,
 				3F0ACC7A15A240280021B3C7 /* Final Project */,
 				3F0ACC9815A240280021B3C7 /* Final ProjectTests */,
 				3F0ACC7315A240280021B3C7 /* Frameworks */,
@@ -112,8 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				3F0ACC8315A240280021B3C7 /* AppDelegate.h */,
+				3FD79CBB15A5109800E37C01 /* Rusko - Woo Boost-NiceNoiz.pl.mp3 */,
 				3F0ACC8415A240280021B3C7 /* AppDelegate.m */,
 				3F0ACC8615A240280021B3C7 /* MainStoryboard.storyboard */,
+				3F0ACCAD15A2453A0021B3C7 /* bubble.png */,
 				3F0ACC8915A240280021B3C7 /* ViewController.h */,
 				3F0ACC8A15A240280021B3C7 /* ViewController.m */,
 				3F0ACC7B15A240280021B3C7 /* Supporting Files */,
@@ -223,6 +242,11 @@
 			files = (
 				3F0ACC7F15A240280021B3C7 /* InfoPlist.strings in Resources */,
 				3F0ACC8815A240280021B3C7 /* MainStoryboard.storyboard in Resources */,
+				3F0ACCAE15A2453A0021B3C7 /* bubble.png in Resources */,
+				3F3B848615A4BF55007F4EEE /* yarab.png in Resources */,
+				3F3B848C15A4C41A007F4EEE /* mS7c5C0.jpeg in Resources */,
+				3F3B848E15A4C6A4007F4EEE /* stock-photo-an-abstract-seamless-pattern-of-black-and-white-geometric-shapes-that-are-connected-to-one-another-49315708.jpeg in Resources */,
+				3FD79CBC15A5109800E37C01 /* Rusko - Woo Boost-NiceNoiz.pl.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +453,7 @@
 				3F0ACCA515A240280021B3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0ACCA615A240280021B3C7 /* Build configuration list for PBXNativeTarget "Final ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +462,7 @@
 				3F0ACCA815A240280021B3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
